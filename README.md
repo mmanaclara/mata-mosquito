@@ -5,7 +5,7 @@
 ## Visualização
 
 <h1 align="center">
-<img alt="Demonstração da utilização do site" title="Demonstração da utilização do site" src="./imagens/mata-mosquito.gif" width="100%"/>
+<img alt="Demonstração da utilização do site" title="Demonstração da utilização do site" src="./images/mata-mosquito.gif" width="80%"/>
 </h1>
 
 <p align="center">
