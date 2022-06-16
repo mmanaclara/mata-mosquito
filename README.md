@@ -35,6 +35,6 @@ Faça o clone do repositório para ter uma versão do projeto em sua máquina:<b
 `$ git clone https://github.com/mmanaclara/mata-mosquito.git` 
 
 ## 📝 Licença
-Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/mata-mosquito/blob/main/LICENSE.md). 
+Este projeto está licenciado nos termos da licença [MIT](https://github.com/mmanaclara/mata-mosquito/blob/main/LICENSE). 
 
 <p align="center"><a href="#topo">⬆</a></p>
