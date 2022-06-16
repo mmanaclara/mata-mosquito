@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fim de jogo</title>
+
+    <!--Inclusão do Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <img src="./images/jogo.png">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <div class="mb-2">
+                        <select class="form-control" id="nivel">
+                            <option value="">-- Selecione o nível --</option>
+                            <option value="normal">Normal</option>
+                            <option value="dificil">Difícil</option>
+                            <option value="chucknorris">Chuck Norris</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-danger btn-lg" onclick="iniciarJogo()" >Iniciar Jogo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function iniciarJogo() {
+            var nivel = document.getElementById('nivel').value
+
+            if(nivel === '') {
+            alert('Selecione um nível para iniciar o jogo')
+            return false
+            }
+
+            window.location.href = "app.html?" + nivel
+        }
+    </script>
+    
+</body>
+</html>
